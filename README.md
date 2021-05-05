@@ -12,8 +12,13 @@ why scrapy?
 > 4. Organize your crawler code in a really structured way so that you can attain maximum satisfaction :)
 > 5. Scrapy can scale well if you project need to crawl a lot of websites.
 
+## About login solution
+
+Why use current solution？ https://github.com/LeetCode-OpenSource/vscode-leetcode/issues/478#issuecomment-558897157
+
 ## Acknowledgements
 
 This project is inspired by the following projects:
 
 - [LeetCode-Anki](https://github.com/Peng-YM/LeetCode-Anki)
+- [LeetCode_Archiver](https://github.com/ZintrulCre/LeetCode_Archiver)

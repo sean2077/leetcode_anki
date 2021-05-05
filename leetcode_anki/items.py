@@ -6,7 +6,14 @@
 import scrapy
 
 
-class LeetcodeAnkiItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class QuestionDataItem(scrapy.Item):
+    id = scrapy.Field()
+    title = scrapy.Field()
+    content = scrapy.Field()
+    submission_list = scrapy.Field()
+    topics = scrapy.Field()
+    difficulty = scrapy.Field()
+    ac_rate = scrapy.Field()
+    likes = scrapy.Field()
+    dislikes = scrapy.Field()
+    slug = scrapy.Field()
